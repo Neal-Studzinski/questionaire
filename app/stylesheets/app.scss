@@ -15,6 +15,36 @@ html {
     }
 }
 
-.active {
-    font-weight: bold;
+#display {
+    float: none;
+    background: green;
+    text-align: center;
+    margin: 0 auto;
 }
+
+#welcomeDisplay {
+    float: none;
+    background: red;
+
+}
+
+#start {
+    color: green;
+    margin-left: 7rem;
+}
+
+.page-frame {
+    padding: 0 2rem;
+    max-width: 80rem;
+}
+.page-content {
+    margin-left: 20rem;
+}
+
+nav {
+  // display: flex;
+  float: left;
+  width: 20rem;
+  padding-right: 4rem;
+  font-size: 1.1rem;
+  }
