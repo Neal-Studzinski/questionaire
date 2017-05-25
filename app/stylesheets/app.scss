@@ -15,31 +15,29 @@ html {
     }
 }
 
-#display {
-    float: none;
-    background: green;
-    text-align: center;
-    margin: 0 auto;
+ul {
+    list-style: none;
+
 }
 
-#welcomeDisplay {
-    float: none;
-    background: red;
-
+h1 {
+    text-align: center;
 }
 
 #start {
-    color: green;
-    margin-left: 7rem;
+    display: flex;
+    justify-content: center;
+    //margin-left: 7rem;
 }
 
 .page-frame {
-    padding: 0 2rem;
+
+    margin-left: 20rem;
+    margin-right: 20rem;
+
     max-width: 80rem;
 }
-.page-content {
-    margin-left: 20rem;
-}
+
 
 nav {
   // display: flex;
@@ -48,3 +46,18 @@ nav {
   padding-right: 4rem;
   font-size: 1.1rem;
   }
+
+table {
+    //display: flex;
+    //justify-content: center;
+    margin: 2% auto;
+
+    td {
+        margin-left: 10%;
+        border: 1px solid grey;
+    }
+}
+
+.highlight {
+    background-color: yellow;
+}
